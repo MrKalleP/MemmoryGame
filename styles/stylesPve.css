@@ -1,0 +1,76 @@
+:root {
+    --clr-background: #8ecae6;
+    --clr-main: #62b6cb;
+
+    --clr-btn: #ffb703;
+
+    --clr-font: #fefae0;
+
+    --ff-family: 'Super Mario 256', sans-serif;
+}
+
+.wrapper {
+    width: 25rem;
+    height: 20rem;
+    border: 2px solid #ffb703;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--clr-main);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 2rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+.Starta {
+    background-color: #8ecae6;
+    color: #fefae0;
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid #ffb703;
+    padding: 5%;
+    font-weight: 900;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.nivå,
+.Spelare {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.nivå {
+    margin-top: 0;
+}
+
+.name-player-1-data {
+    --clr-btn: #ffb703;
+    color: #8ecae6;
+    width: 300px;
+    height: 15px;
+    border: none;
+    padding: 5%;
+    font-weight: 500;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.hidden-data {
+    display: none;
+}

@@ -1,0 +1,57 @@
+:root {
+    --clr-background: #8ecae6;
+    --clr-main: #62b6cb;
+
+    --clr-btn: #ffb703;
+    --clr-font: #fefae0;
+
+    --ff-family: 'Super Mario 256', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-background);
+    color: var(--clr-font);
+    font-family: var(--ff-family);
+}
+
+.section-meny {
+    width: 30rem;
+    height: 20rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--clr-main);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    cursor: pointer;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--clr-btn);
+}
+.btn:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.3s;
+}
+
+.hidden-meny {
+    display: none;
+}
