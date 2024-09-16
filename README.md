@@ -40,7 +40,7 @@ This is a solution to the [JS1-examination](https://github.com/fe22-kyh/js1-exam
 
 ### Links
 
-- Live Site URL: https://mrkallep.github.io/MemmoryGameKalleP/
+- Live Site URL: [https://mrkallep.github.io/MemmoryGameKalleP/](https://mrkallep.github.io/MemmoryGame/)
 
 ## Our process
 
